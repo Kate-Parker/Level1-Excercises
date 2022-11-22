@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Landing Page</title>
+    <style>
+        img{
+            float: left;
+        }
+        p{
+          color:black; 
+          font-family:sans-serif; 
+          font-weight: bolder;
+          font-size: 25px;
+         } 
+         input{
+            float: right;
+            padding: 12px;
+            border-radius: 20px;
+             margin-bottom: 40px;  
+             margin-right: 50%; 
+         }
+          nav{
+            width: 50px;
+        } 
+
+         ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            margin: auto;
+            width: 40%;
+            padding: 30px 0;
+         }
+         ul li a{
+            text-decoration: none;
+            font-size: 20px;
+            color:black;
+            border-radius: 15px;
+            border: 1px solid gray;
+            padding: 10px 20px;
+            border-width: 1px;
+            margin-left: 2.2em;
+         }
+         .page-principal{
+            background-color: black;
+            color:white
+         }
+         .page:hover{
+            background-color: lightgray;
+            color:white
+         }
+          #images div img{
+            width:250px ;
+            border-radius: 30px;
+         }
+         #images{
+            display: flex;
+            justify-content: space-between;
+         }
+         #pictures div img{
+            width:250px ;
+            border-radius: 30px;
+         }
+         #pictures{
+            display: flex;
+            justify-content: space-between;
+         }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <img src="../images/YouTube-Logo.svg" alt="youtube" width="50" height="30">
+            <p>YouTube</p>
+                <input type="text" placeholder="Rechercher">
+                <br>
+                <br>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a class="page-principal" href="www.youtube.com"> Tous</a></li>
+                <li><a class="page" href="https://youtu.be/-B6aEdTjlBQ"> Amstrong</a></li>
+                <li><a class="page" href="https://youtu.be/douM3B78IhY?list=RDhqunRm_dSHw">playlist</a></li>
+                <li><a  class="page" href="#">Afrobeat</a></li>
+                <li><a class="page" href="#">Informatique</a></li>
+                <li><a class="page" href="#">Rap</a></li>
+                <li><a class="page" href="#">Live</a></li>
+                <li><a  class="page" href="#">Comedy</a></li>
+            </ul>
+        </nav>
+                
+
+        <section id="images">
+            <div><img src="../images/lil-uzi-vert-vs-the-world-2.jpeg"></div>
+         <div><img src="../images/exterior.jpeg" height="250"></div>
+            <div><img src="../images/vue-du-ciel.jpeg"></div>
+            <div><img src="../images/unnamed.jpeg"></div>
+        </section>
+        <br>
+
+        <section id="pictures">
+            <div><img src="../images/unnamed.jpeg"></div>
+            <div><img src="../images/exterior.jpeg" height="250"></div>
+            <div><img src="../images/lil-uzi-vert-vs-the-world-2.jpeg"></div>
+            <div><img src="../images/vue-du-ciel.jpeg"></div>
+            
+        </section>
+
+        <p class="msg">To recreate this landing page, i used pure Html & Css. I wanted to reproduce  the exact thing as what was displaying on my laptop<br>
+           simply  because youtube landing page varies as that of the different screen sizes</p>
+    </main> 
+</body>
+</html>
