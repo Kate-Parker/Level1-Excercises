@@ -1,0 +1,88 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;900&display=swap');
+
+  /*CSS RESET  */
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+header.header-container{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgb(4,64,85);
+}
+header.header-container nav ul.navbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+header.header-container nav ul.navbar-container li{
+color: white;
+list-style: none;
+font-weight: 700;
+padding: 1.3rem 0.9rem;
+background-color: rgba(8,7,70.869);
+}
+header.header-container nav ul.navbar-container li a.nav-links{
+    text-decoration: none; 
+}
+header.header-container nav ul.navbar-container li:hover{
+    background-color: rgba(206,169,5,0.948);
+    color: black;
+    transition: 2s ease;
+    cursor: pointer;
+}
+header.header-container div.welcome-text-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+header.header-container div.welcome-text-container h1.hi-text{
+    color: orange;
+}
+header.header-container div.welcome-text-container h2.name-text{
+    color: whitesmoke;
+    position: relative;
+    animation: hopIn 4s linear;
+}
+.text-large{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.text-medium{
+    font-size: 1.5rem;
+    font-weight: 600;   
+}
+
+@keyframes hopIn{
+    0%{
+        color: black;
+        top: -3rem;
+        left: -5rem;
+        font-size: 1.8rem;
+    }
+    25%{
+        color: green;
+        top:2rem;
+        left:5rem ;
+        font-size: 2rem;
+    }
+    75%{
+        color: red;
+        top:6rem;
+        left:8rem ;
+        font-size: 3rem;
+    }
+    100%{
+        color: orange;
+        top:0rem;
+        left:0rem ;
+        font-size: 3.5rem;
+    }
+}
