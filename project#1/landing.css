@@ -7,14 +7,12 @@ html,body{
     box-sizing: border-box;
     font-size: 25px;
     font-family: 'Kalam', sans-serif;
-    /* background-image: url(./assets/images/burger.jpg);
-    background-size: cover; */
 }
 header.header-container{
     height: 18vh;
     width: 100vw;
     overflow: hidden;
-    background-color: rgb(21, 133, 174);
+    background-color: rgb(21, 133, 174); 
 }
 header.header-container nav ul.navigation-container{
     display:flex;
@@ -35,7 +33,27 @@ header.header-container nav ul.navigation-container li:hover{
     background-color: orange;
     transition: 2s ease-in-out;
     cursor: pointer;
+    text-decoration: underline;
 }
+#welcome-container{
+    background-image: url(./assets/images/4.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+    margin: 4px 0;
+}
+#first-section div.about-us{
+    display: flex;
+    justify-content:center;
+     /* width: 80%; */
+    gap:3rem; 
+    margin:5px  130px;
+}
+
+/* #footer-section{
+    background-color: #63A088;
+    color: black;
+} */
 
 
 
