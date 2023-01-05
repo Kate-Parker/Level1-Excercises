@@ -43,20 +43,63 @@ header.header-container nav ul.navigation-container li:hover{
     background-position: center center;
     height: 550px;
 }
+#items{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+.gallery{
+    margin: 25px;
+    float:left;
+    width: 350px;
+    cursor: pointer;
+    border-radius:15px;
+} 
+div.gallery img{
+    width: 100%; 
+}
+.gallery p{
+    padding: 3px;
+    text-align: center;
+   
+}
+.gallery .price{
+    text-decoration:line-through;
+}
+div.gallery input{
+   background-color: red;
+   color: #fff; 
+   border-radius: 10px;
+   padding: 14px;
+   width: 30%;
+}
+input[type="submit"]:hover{
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+header.section-header h1{
+    font-size: 2rem;
+    color: #000;
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+}
+
 footer{
     height: 400px;
     background-color: #000;
     color: rgb(98, 139, 139);
     text-align: center;
-}
-footer h1{
+ }
+ footer h1{
     color: #fff;
     font-size: 40px;
     text-align: center;
     padding-top: 80px;
     padding-bottom: 20px;
-}
-footer p{
+ }
+ footer p{
     text-align: center;
     color: #fff;
     border-bottom: 1px dotted gray;
@@ -68,3 +111,5 @@ footer p{
     justify-content: space-between;
     /* animation: setcolor 1s 2.4s ease-in-out infinite; */
  }
+
+
