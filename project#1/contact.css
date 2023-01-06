@@ -56,10 +56,15 @@ header.header-container nav ul.navigation-container li:hover{
    margin: 15px;
    height: 8rem;
    text-align: center;
+   cursor: pointer;
 } 
+
+/* .card:hover{
+   border: 1px solid red;
+} */
 .data{
    display: flex; flex-direction: column;
-   width: 70%;
+    width: 70%;
    margin: auto;
    margin-top: 20px;
 }
@@ -76,23 +81,22 @@ input[type="submit"]{
    height: fit-content;
    margin: auto;
    text-transform: uppercase;
-   background-color:#9CC4B2 ;
-   color: #fff;
+   color: #000;
    font-weight: 700;
    transition: all 300ms;
 }
 input[type="submit"]:hover{
+   background-color: #2E6171;
+   color: #fff;
    transform: scale(1.2);
 }
 textarea{
    border-radius: 10px;
    padding: 5px;
 }
-/* map{
+ iframe{
    width: 100%;
-   height: fit-content;
-    padding: 25px; 
-} */
+} 
 footer{
    height: 400px;
    background-color: #000;
