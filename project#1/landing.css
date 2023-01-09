@@ -16,8 +16,7 @@ header.header-container{
 }
 header.header-container nav ul.navigation-container{
     display:flex;
-    justify-content: center;
-    align-items: center;
+    float:right;
     gap: 3rem;
 }
 header.header-container nav ul.navigation-container li {
@@ -72,6 +71,12 @@ footer{
     margin: auto;
     justify-content: space-between;
     /* animation: setcolor 1s 2.4s ease-in-out infinite; */
+ }
+ #arrow-btn{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #2E6171;
  }
  
  

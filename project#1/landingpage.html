@@ -12,7 +12,12 @@
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;900&display=swap" rel="stylesheet">
     <!-- Fav icon -->
     <link rel=" icon" href="./assets/images/burger.jpg" type="image/jpg">
+    <!-- external stylesheet -->
     <link rel="stylesheet" href="landing.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/4a3511f4d5.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <!-- Header  -->
@@ -22,7 +27,6 @@
                 <li class="nav-items"><a href="landingpage.html" class="nav-links">Home</a></li>
                 <li class="nav-items"><a href="service.html" class="nav-links">Service</a></li>
                 <li class="nav-items"><a href="contact.html" class="nav-links">Contact</a></li> 
-                <li class="nav-items"><a href="testimony.html" class="nav-links">Testimonials</a></li> 
                 
             </ul>
         </nav>
@@ -30,36 +34,85 @@
             <div id="welcome-container">
             </div>
 
-    <!-- About Us Section -->
-    <section id="first-section">
-        <div class="about-us">
-
-            <div class="home-icons">
-                <ion-icon name="home-outline"></ion-icon>
-            </div> 
-
-            <div class="delivery-icon">
-                <ion-icon class="logo"name="location-outline"></ion-icon>
-                <p>Deliveries are made every where in cameroon.</p>
-            </div>
-        </div>
-    </section>
-
     <!-- About-Us Section -->
     <section id="second">
         <div class="container">
-            <h2>About Us</h2>
-            <p> What we do is more than an online grocery store! our mission is to deliver 100% accurate and unbiased facts about food, nutrition, and health and at the same time, deliver fresh produce from our local farmers straight to your doorsteps.
-                Allowing city folk access to fresher produce and real farm-to-table experiences in the comforts of home.
-            </p>
+            <div>
+                <h2>About Us</h2>
+                <p> What we do is more than an online grocery store! our mission is to deliver 100% accurate and unbiased facts about food, nutrition, and health and at the same time, deliver fresh produce from our local farmers straight to your doorsteps.
+                    Allowing city folk access to fresher produce and real farm-to-table experiences in the comforts of home.We collaborate with local farmers who struggle to get their fresh produce to the Metro safely, damaging the quality of the fruits and vegetables by carefully picking the produce ourselves, while handling distribution and logistics via our refrigerated trucks.
+                </p>    
+            </div>
 
-            <h2>Objectives</h2>
-            <ul>
-                <li>Bridge the gap between local farmers from the province and potential customers from the city through our website.</li>
-                <li>Our team personally handpicks the fresh produce, then proceeds to take care of distribution and logistics.</li>
-                <li>Although we support all kinds of diets, we make a vow to educate our customers on what constitutes a healthy, well balanced diet by fact-based research which we release through our social media channels</li>
-                <li>Order all your food stuffs from home, with just a click.</li>
-            </ul>
+            <div> <!--our serives blocs-->
+                <h2>Our Services</h2> <!--title-->
+
+                <div class="container row justify-content-between"> <!--all 3 services-->
+                    <div class="col-3"> <!--one service-->
+                        <div> <!--large icon-->
+                            <i class="fas fa-truck w-100 p-2"></i>
+                        </div>
+                        <h3>Livraison</h3>
+                    </div>
+
+                    <div class="col-3"> <!--one service-->
+                        <div> <!--large icon-->
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h3>Livraison</h3>
+                    </div>
+
+                    <div class="col-3"> <!--one service-->
+                        <div> <!--large icon-->
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h3>Livraison</h3>
+                    </div>
+                </div>  
+            </div>
+
+            <!-- Objectives section -->
+            <div>
+                <h2>Objectives</h2>
+                <div>
+                    <ul>
+                        <li>Bridge the gap between local farmers from the province and potential customers from the city through our website.</li>
+                        <li>Our team personally handpicks the fresh produce, then proceeds to take care of distribution and logistics.</li>
+                        <li>Although we support all kinds of diets, we make a vow to educate our customers on what constitutes a healthy, well balanced diet by fact-based research which we release through our social media channels</li>
+                        <li>Order all your food stuffs from home, with just a click.</li>
+                    </ul>
+                </div> 
+            </div>
+
+            <!-- testimonials -->
+            <div>
+                <h2>Testimonials</h2>
+                <div class="container row justify-content-between">
+                    <div class="col-3">
+                        <div>
+                            <img src="" alt="">
+                            <p>"Kate Parker<br>Got my veggies delivered from Fresh Produce. It's fresh and cheaper than most grocery stores. 6am already on my doorstep. Love it. Thank you</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-3">
+                        <div>
+                            <img src="" alt="">
+                            <p>"Ron Poe<br>Got my veggies delivered from Fresh Produce. It's fresh and cheaper than most grocery stores. 6am already on my doorstep. Love it. Thank you</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-3">
+                        <div>
+                            <img src="./assets/images/9.jpg" alt="" width="250" height="250">
+                            <p>"Marc Nelson<br>Got my veggies delivered from Fresh Produce. It's fresh and cheaper than most grocery stores. 6am already on my doorstep. Love it. Thank you</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -76,9 +129,9 @@
         </div>
         <div>
             Copyright &copy; Local Market Shop
-            <button>
+            <a href="#" id="arrow-btn">
                 <ion-icon name="arrow-up-outline"></ion-icon>
-            </button>
+            </a>
         </div>
     </footer> 
 

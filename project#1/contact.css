@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;900&display=swap');
 
-
 /* CSS RESET */
 html,body{
    padding: 0;
@@ -8,8 +7,8 @@ html,body{
    box-sizing: border-box;
    font-size: 25px;
    font-family: 'Montserrat', sans-serif;
-   /* background-color: #613F75; */
-   background-color:#E5C3D1;
+   background-color: #613F75;
+   /* background-color:#E5C3D1; */
 }
 header.header-container{
    height: 18vh;
@@ -19,8 +18,7 @@ header.header-container{
 }
 header.header-container nav ul.navigation-container{
    display:flex;
-   justify-content: center;
-   align-items: center;
+  float: right;
    gap: 3rem;
 }
 header.header-container nav ul.navigation-container li{
@@ -38,12 +36,10 @@ header.header-container nav ul.navigation-container li:hover{
    cursor: pointer;
    text-decoration: underline;
 }
-#welcome-container{
-   background-image: url(./assets/images/burger.jpg);
-   background-size: cover;
-   background-position: center center;
-   height: 550px;
-}
+iframe{
+   width: 100%;
+} 
+
 #details{
    display: flex;
    width: 70%;
@@ -94,9 +90,7 @@ textarea{
    border-radius: 10px;
    padding: 5px;
 }
- iframe{
-   width: 100%;
-} 
+
 footer{
    height: 400px;
    background-color: #000;
@@ -122,27 +116,14 @@ footer p{
    justify-content: space-between;
    /* animation: setcolor 1s 2.4s ease-in-out infinite; */
 }
+#arrow-btn{
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+   color: #2E6171;
+}
 
-/* .arrow {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   margin-top: -30px;
-   margin-left: -60px;
-   display: inline-block;
-   font-size: 26px;
-   color: #fff;
-   text-align: center;
-   width: 120px;
-   height: 60px;
-   line-height: 60px;
-   border: 5px solid #fff;
-   overflow: hidden;
-   text-transform: uppercase;
-   cursor: pointer;
-   transition: 5 ease-in-out,
-               
-} */
+
 /* @keyframes setcolor{
    0%,100%{
        color: red
