@@ -47,10 +47,21 @@ header.header-container nav ul.navigation-container li:hover{
 #first-section div.about-us{
     display: flex;
     justify-content:center;
-     /* width: 80%; */
     gap:3rem; 
     margin:5px  130px;
 }
+h2{
+    color: #2E6171;
+    padding: 15px;
+    margin-top: 15px;
+    text-decoration: underline;
+    letter-spacing: 2px; 
+}
+.intro, p{
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
 footer{
     height: 400px;
     background-color: #000;
@@ -74,11 +85,22 @@ footer{
     color: rgb(98, 139, 139);
     margin: auto;
     justify-content: space-between;
+    cursor: pointer;
     /* animation: setcolor 1s 2.4s ease-in-out infinite; */
  }
+ .testimonials h2{
+    padding: 15px;
+    margin-top: 15px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+ }
  .testimonials img{
-    width: 250px;
+    width: 200px;
     clip-path: circle();
+ }
+ .testimonials p{
+    text-align: center;
+   margin-top: 5px;
  }
  #arrow-btn{
     position: fixed;
@@ -86,6 +108,17 @@ footer{
     right: 10px;
     color: #2E6171;
  }
+#cta-btn{
+    margin: 07%;
+    text-align: center;
+    padding: 15px;
+    background-color: #2E6171;
+    border: none; 
+}
+#cta-btn a{
+    color: #fff;
+    text-decoration: none;
+}
  
  
 
