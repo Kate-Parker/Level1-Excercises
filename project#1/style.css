@@ -10,6 +10,10 @@ html,body{
     /* background-color: #613F75; */
     background-color:#E5C3D1;
 }
+header.header-container nav img{
+    width: 100px;
+    clip-path: circle();
+}
 header.header-container{
     height: 18vh;
     width: 100vw;
