@@ -13,12 +13,7 @@ header.header-container nav img{
    width: 100px;
    clip-path: circle();
 }
-header.header-container{
-   height: 18vh;
-   width: 100vw;
-   overflow: hidden;
-   background-color: rgb(21, 133, 174); 
-}
+
 header.header-container nav ul.navigation-container{
    display:flex;
   float: right;
@@ -31,7 +26,7 @@ header.header-container nav ul.navigation-container li{
 }
 header.header-container nav ul.navigation-container li a.nav-links{
    text-decoration: none; 
-   color: white;
+   color: black;
 }
 header.header-container nav ul.navigation-container li:hover{
    background-color: orange;
