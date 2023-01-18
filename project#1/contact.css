@@ -10,31 +10,51 @@ html,body{
 
 }
 header.header-container nav img{
-   width: 100px;
+   width: 80px;
    clip-path: circle();
+}
+header.header-container{
+  padding: 10px 20px;
 }
 
 header.header-container nav ul.navigation-container{
    display:flex;
   float: right;
-   gap: 3rem;
+   gap: 1.5rem;
 }
 header.header-container nav ul.navigation-container li{
    list-style: none;
    font-weight: 700;
-   padding: 1rem 0.5rem;
+   padding: 0.5rem 0.5rem;
 }
 header.header-container nav ul.navigation-container li a.nav-links{
    text-decoration: none; 
-   color: black;
+   color: white;
 }
 header.header-container nav ul.navigation-container li:hover{
-   background-color: orange;
-   transition: 2s ease-in-out;
+   transition: 0.4s ease-in-out;
    cursor: pointer;
    text-decoration: underline;
 }
+#welcome-container{
+   background: url(./assets/images/contact2.jpg) rgba(0, 0, 0, 0.5);
+   background-size: cover;
+   background-blend-mode: multiply;
+   background-position: center center;
+   height: 70vh;
+   position: relative;
+}
+#sliding-arrow{
+   position: absolute;
+   bottom: -30px;
+   transform:translate(-50%,-50%);
+   left: 50%;
+   padding: 10px;
+   clip-path: circle();
+   background-color: #fff;
+}
 iframe{
+   margin-top: 10vh;
    width: 100%;
 } 
 
@@ -52,13 +72,16 @@ iframe{
    text-align: center;
    cursor: pointer;
 } 
-
 /* .card:hover{
    border: 1px solid red;
 } */
+.contact-form{
+   width: 50%;
+   margin:10px 0;
+}
 .data{
    display: flex; flex-direction: column;
-    width: 70%;
+   width: 70%;
    margin: auto;
    margin-top: 20px;
 }
