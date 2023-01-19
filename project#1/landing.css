@@ -210,22 +210,4 @@ footer p{
 /* .cta-btn a:hover{
    color: red;
 } */
-
-
-@media (max-width:768px) {
-   .col-3{
-      padding: 15px 5px;
-      width: 100vw;
-      display: flex;
-   }
-   .col-3 h4{
-      padding: 05px;
-   }
-   .wrapper .col-3  {
-      width: 50%;
-   /* display: flex;
-   flex-direction: row; */
-   }
-   
-}
-
+ 
