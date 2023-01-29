@@ -1,1 +1,1 @@
-This folder contains  shows a simple login form & an animated  loader
+This folder contains   a simple login form & an animated  loader
