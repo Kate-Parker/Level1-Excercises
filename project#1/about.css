@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;900&display=swap');
+
+/* CSS RESET */
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+header.header-container nav img{
+    width: 80px;
+    clip-path: circle();
+}
+header.header-container{
+    padding: 10px 20px;
+}
+header.header-container nav ul.navigation-container{
+    display:flex;
+    float:right;
+    gap: 3rem;
+}
+ header.header-container nav ul.navigation-container li {
+    list-style: none;
+    font-weight: 700;
+    padding: 0.2rem;
+}
+header.header-container nav ul.navigation-container li a.nav-links{
+    text-decoration: none; 
+    color: white;
+}
+header.header-container nav ul.navigation-container li:hover{
+    text-decoration: underline;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;  
+}
+#welcome-container{
+    background: url(./assets/images/yaounde.jpeg) rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+h2{
+    color: #2E6171;
+    padding: 15px;
+    text-decoration: underline;
+    text-align: center;
+}
+.sub-container{
+   margin-top: 8vh;
+   text-align: center;
+   padding: 0 30px;
+   line-height: 8vh;
+} 
+.objectives{
+   margin-top: 15vh;
+   text-align: center;
+   padding: 0 30px;
+   margin-bottom: 5%;
+}
+.objectives ul li{
+    line-height: 8vh;
+   /* margin-bottom: 20px; */
+   list-style: none;
+}
+footer{
+    height: 400px;
+    background-color: #000;
+    color: rgb(98, 139, 139);
+    text-align: center;
+}
+footer h1{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px dotted gray;
+}
+.footer-content{
+    width: 20%;
+    color: rgb(98, 139, 139);
+    margin: auto;
+    justify-content: space-between;
+    cursor: pointer;
+    /* animation: setcolor 1s 2.4s ease-in-out infinite; */
+}
+#arrow-btn{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #2E6171;
+}
+@media screen and (max-width: 1024px) {
+    .cta-btn h4,.cta-btn a{
+       font-size: 20px;
+    }
+ }
+ @media screen and (max-width: 768px) {
+ .wrapper{
+    flex-direction: column;
+    align-items: center;
+ }
+    
+}
+ 
